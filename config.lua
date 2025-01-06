@@ -51,77 +51,100 @@ Config.Foods = {
 
     -- Grille
     Grille = {
-        ['nz_pancake'] = {
-            description = false,
-            price = 950,
-            amount = 1,
-            recipes = { -- {} or table
-                ['nz_egg'] = 2,
-                ['nz_milk'] = 1,
-                ['nz_syrup'] = 1,
-                ['nz_pancakemix'] = 1,
-            },
-        },
-        ['nz_waffle'] = {
-            description = false,
-            price = 1200,
-            amount = 1,
-            recipes = { -- {} or table
-                ['nz_egg'] = 2,
-                ['nz_milk'] = 1,
-                ['nz_pancakemix'] = 1,
-            },
-        },
-        ['nz_wafflebacon'] = {
-            description = false,
+        ['nz_sbite'] = {
+            display_name = "Sharke Bite Slider", 
+            description = "A wild, flavorful slider with a bite of the ocean.",
             price = 1500,
             amount = 1,
             recipes = { -- {} or table
-                ['nz_egg'] = 2,
-                ['nz_milk'] = 1,
-                ['nz_raw_bacon'] = 1,
-                ['nz_pancakemix'] = 1,
-            },
-        },
-        ['nz_toast'] = {
-            description = false,
-            price = 1200,
-            amount = 1,
-            recipes = { -- {} or table
-                ['nz_bread'] = 1,
-                ['nz_butter'] = 3,
-                ['nz_strawberry'] = 3,
-            },
-        },
-        ['nz_sandwitch'] = {
-            description = false,
-            price = 1100,
-            amount = 1,
-            recipes = { -- {} or table
-                ['nz_egg'] = 2,
-                ['nz_bread'] = 1,
+                ['nz_bun'] = 1,
+                ['nz_patty'] = 1,
                 ['nz_lettuce'] = 1,
-                ['nz_raw_bacon'] = 2,
-            },
-        },
-        ['nz_brakefastset'] = {
-            description = false,
-            price = 1250,
-            amount = 1,
-            recipes = { -- {} or table
-                ['nz_egg'] = 2,
-                ['nz_bread'] = 1,
-                ['nz_raw_bacon'] = 1,
-            },
-        },
-        ['nz_burger'] = {
-            description = false,
-            price = 1150,
-            amount = 1,
-            recipes = { -- {} or table
-                ['nz_bread'] = 1,
                 ['nz_tomato'] = 1,
-                ['nz_lettuce'] = 1,
+            },
+        },
+        ['nz_lobsterr'] = {
+            display_name = "Lagoon Lobster Roll",
+            description = "A creamy, dreamy lobster roll that tastes like a day by the sea.",
+            price = 1500,
+            amount = 1,
+            recipes = { -- {} or table
+                ['nz_lobster'] = 1,
+                ['nz_butter'] = 1,
+                ['nz_lemon'] = 1,
+                ['nz_bun'] = 1,
+            },
+        },
+        ['nz_fishnchips'] = {
+            display_name = "Fish and Chips,
+            description = "A classic combo of tender fish and crunchy chips.",
+            price = 1500,
+            amount = 1,
+            recipes = { -- {} or table
+                ['nz_fish'] = 1,
+                ['nz_chips'] = 1,
+                ['nz_butter'] = 1,
+                ['nz_seasoning'] = 1,
+            },
+        },
+        ['nz_gumbo'] = {
+            display_name = "Fisherman's Gumbo", 
+            description = "A cozy, spicy seafood dish straight from the dock to your bowl!",
+            price = 950,
+            amount = 1,
+            recipes = { -- {} or table
+                ['nz_fish'] = 1,
+                ['nz_lobster'] = 1,
+                ['nz_butter'] = 1,
+                ['nz_seasoning'] = 1,
+                ['nz_chips'] = 1,
+            },
+        },
+        ['nz_sfinfries'] = {
+            display_name = "Shark Fin Fries",
+            description = "Shark fin fries, crispy and daring, just like the deep sea.",
+            price = 950,
+            amount = 1,
+            recipes = { -- {} or table
+                ['nz_bread'] = 1,
+                ['nz_butter'] = 1,
+                ['nz_strawberry'] = 1,
+            },
+        },
+        ['nz_sunsetccake'] = {
+            display_name = "Sunset Coconut Cake",
+            description = "A tropical slice of paradise, with a hint of coconut and sunset sweetness.",
+            price = 950,
+            amount = 1,
+            recipes = { -- {} or table
+                ['nz_egg'] = 1,
+                ['nz_whip_cream'] = 1,
+                ['nz_baking_mix'] = 1,
+                ['nz_coconut'] = 1,
+            },
+        },
+        ['nz_slemons'] = {
+            display_name = "Sharkies Lemon Scones",
+            description = "Tart, sweet, and oh-so-fluffy—these lemon scones are the catch of the day.",
+            price = 950,
+            amount = 1,
+            recipes = { -- {} or table
+                ['nz_lemon'] = 1,
+                ['nz_whip_cream'] = 1,
+                ['nz_baking_mix'] = 1,
+                ['nz_eggs'] = 1,
+            },
+        },
+            ['nz_bwhalemuff'] = {
+            display_name = "Blue Whale Muffins",
+            description = "Blue as the ocean, soft as a whale’s song—these muffins are a treat!",
+            price = 950,
+            amount = 1,
+            recipes = { -- {} or table
+                ['nz_lemon'] = 1,
+                ['nz_whip_cream'] = 1,
+                ['nz_baking_mix'] = 1,
+                ['nz_eggs'] = 1,
             },
         },
         -- you can add here more
@@ -129,35 +152,38 @@ Config.Foods = {
 
     Cutting = {
         ['nz_salad'] = {
-            description = false,
+            display_name = "Sharkie Cove Salad"
+            description = "Dive into crisp greens, topped with a medley of coastal goodness.",
             price = 670,
             amount = 1,
             recipes = { -- {} or table
                 ['nz_egg'] = 1,
                 ['nz_tomato'] = 1,
-                ['nz_avocado'] = 1,
                 ['nz_lettuce'] = 1,
-                ['nz_cucumber'] = 1,
+                ['nz_fish'] = 1,
             },
         },
     },
 
     -- Drink
     Drink = {
-        ['kurkakola'] = {
-            description = false,
-            price = 200,
-            amount = 1,
-            recipes = {}, -- {} or table
-        },
-        ['wine'] = {
-            description = false,
+        ['nz_blagoon'] = {
+            display_name = "Blue Lagoon",
+            description = "Refreshing as the ocean, with a splash of Sharkie’s blue lagoon magic!",
             price = 150,
             amount = 1,
             recipes = {}, -- {} or table
         },
-        ['water_bottle'] = {
-            description = false,
+        ['nz_fintini'] = {
+            display_name = "Fin-Tini",
+            description = "A cool, sharky martini with a splash of adventure.",
+            price = 150,
+            amount = 1,
+            recipes = {}, -- {} or table
+        },
+        ['nz_sharkieshake'] = {
+            display_name = "The Sharkie's Shakedown",
+            description = "A wild, creamy shake that’s ready to make a splash!",
             price = 150,
             amount = 1,
             recipes = {}, -- {} or table.
@@ -166,10 +192,18 @@ Config.Foods = {
 
     -- Coffee
     Coffee = {
-        ['coffee'] = {
-            description = false,
+        ['nz_sbreezelatte'] = {
+            display_name = "Sharkie's Sea Breeze Latte",
+            description = "A cozy latte with a hint of vanilla, inspired by the ocean breeze.",
             price = 150,
-            recipes = {}, -- {} or table
+            recipes = {},-- {} or table
+            },
+        ['nz_stankt'] = {
+            display_name = "Shark Tank Tea",
+            description = "A bold, deep-steeped tea with a mix of spices and citrus, as daring as a shark's fin.",
+            price = 150,
+            amount = 1,
+            recipes = {}, -- {} or table.
         },
     }
 }
